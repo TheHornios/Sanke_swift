@@ -1,0 +1,730 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC47387C2847BFAE00F0DEB7 /* AsteroidsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47387B2847BFAE00F0DEB7 /* AsteroidsApp.swift */; };
+		EC47387E2847BFAE00F0DEB7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47387D2847BFAE00F0DEB7 /* HomeView.swift */; };
+		EC4738802847BFB000F0DEB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC47387F2847BFB000F0DEB7 /* Assets.xcassets */; };
+		EC4738832847BFB000F0DEB7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC4738822847BFB000F0DEB7 /* Preview Assets.xcassets */; };
+		EC47388D2847BFB100F0DEB7 /* AsteroidsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC47388C2847BFB100F0DEB7 /* AsteroidsTests.swift */; };
+		EC4738972847BFB100F0DEB7 /* AsteroidsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4738962847BFB100F0DEB7 /* AsteroidsUITests.swift */; };
+		EC4738992847BFB100F0DEB7 /* AsteroidsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC4738982847BFB100F0DEB7 /* AsteroidsUITestsLaunchTests.swift */; };
+		EC9087F22849034E004146CE /* Botones.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9087F12849034E004146CE /* Botones.swift */; };
+		EC90881D28490A75004146CE /* 4114blasterc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881328490A75004146CE /* 4114blasterc.ttf */; };
+		EC90881E28490A75004146CE /* 4114blasterc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881328490A75004146CE /* 4114blasterc.ttf */; };
+		EC90881F28490A75004146CE /* 4114blasterc.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881328490A75004146CE /* 4114blasterc.ttf */; };
+		EC90882028490A75004146CE /* 4114blasterei.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881428490A75004146CE /* 4114blasterei.ttf */; };
+		EC90882128490A75004146CE /* 4114blasterei.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881428490A75004146CE /* 4114blasterei.ttf */; };
+		EC90882228490A75004146CE /* 4114blasterei.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881428490A75004146CE /* 4114blasterei.ttf */; };
+		EC90882328490A75004146CE /* 4114blaster3di.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881528490A75004146CE /* 4114blaster3di.ttf */; };
+		EC90882428490A75004146CE /* 4114blaster3di.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881528490A75004146CE /* 4114blaster3di.ttf */; };
+		EC90882528490A75004146CE /* 4114blaster3di.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881528490A75004146CE /* 4114blaster3di.ttf */; };
+		EC90882628490A75004146CE /* 4114blasterl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881628490A75004146CE /* 4114blasterl.ttf */; };
+		EC90882728490A75004146CE /* 4114blasterl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881628490A75004146CE /* 4114blasterl.ttf */; };
+		EC90882828490A75004146CE /* 4114blasterl.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881628490A75004146CE /* 4114blasterl.ttf */; };
+		EC90882928490A75004146CE /* 4114blaster3d.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881728490A75004146CE /* 4114blaster3d.ttf */; };
+		EC90882A28490A75004146CE /* 4114blaster3d.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881728490A75004146CE /* 4114blaster3d.ttf */; };
+		EC90882B28490A75004146CE /* 4114blaster3d.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881728490A75004146CE /* 4114blaster3d.ttf */; };
+		EC90882C28490A75004146CE /* 4114blastere.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881828490A75004146CE /* 4114blastere.ttf */; };
+		EC90882D28490A75004146CE /* 4114blastere.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881828490A75004146CE /* 4114blastere.ttf */; };
+		EC90882E28490A75004146CE /* 4114blastere.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881828490A75004146CE /* 4114blastere.ttf */; };
+		EC90882F28490A75004146CE /* 4114blasterli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881928490A75004146CE /* 4114blasterli.ttf */; };
+		EC90883028490A75004146CE /* 4114blasterli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881928490A75004146CE /* 4114blasterli.ttf */; };
+		EC90883128490A75004146CE /* 4114blasterli.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881928490A75004146CE /* 4114blasterli.ttf */; };
+		EC90883228490A75004146CE /* 4114blasteri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881A28490A75004146CE /* 4114blasteri.ttf */; };
+		EC90883328490A75004146CE /* 4114blasteri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881A28490A75004146CE /* 4114blasteri.ttf */; };
+		EC90883428490A75004146CE /* 4114blasteri.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881A28490A75004146CE /* 4114blasteri.ttf */; };
+		EC90883528490A75004146CE /* 4114blasterci.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881B28490A75004146CE /* 4114blasterci.ttf */; };
+		EC90883628490A75004146CE /* 4114blasterci.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881B28490A75004146CE /* 4114blasterci.ttf */; };
+		EC90883728490A75004146CE /* 4114blasterci.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881B28490A75004146CE /* 4114blasterci.ttf */; };
+		EC90883828490A75004146CE /* 4114blasterleft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881C28490A75004146CE /* 4114blasterleft.ttf */; };
+		EC90883928490A75004146CE /* 4114blasterleft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881C28490A75004146CE /* 4114blasterleft.ttf */; };
+		EC90883A28490A75004146CE /* 4114blasterleft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90881C28490A75004146CE /* 4114blasterleft.ttf */; };
+		EC90883D28490E97004146CE /* SnakeGameDemoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90883C28490E97004146CE /* SnakeGameDemoRegular.ttf */; };
+		EC90883E28490E97004146CE /* SnakeGameDemoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90883C28490E97004146CE /* SnakeGameDemoRegular.ttf */; };
+		EC90883F28490E97004146CE /* SnakeGameDemoRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EC90883C28490E97004146CE /* SnakeGameDemoRegular.ttf */; };
+		EC90884128490FE5004146CE /* JuegoInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90884028490FE5004146CE /* JuegoInicio.swift */; };
+		EC90884228490FE5004146CE /* JuegoInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90884028490FE5004146CE /* JuegoInicio.swift */; };
+		EC90884328490FE5004146CE /* JuegoInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90884028490FE5004146CE /* JuegoInicio.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC4738892847BFB100F0DEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4738702847BFAE00F0DEB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4738772847BFAE00F0DEB7;
+			remoteInfo = Asteroids;
+		};
+		EC4738932847BFB100F0DEB7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC4738702847BFAE00F0DEB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC4738772847BFAE00F0DEB7;
+			remoteInfo = Asteroids;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC4738782847BFAE00F0DEB7 /* Asteroids.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Asteroids.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC47387B2847BFAE00F0DEB7 /* AsteroidsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsApp.swift; sourceTree = "<group>"; };
+		EC47387D2847BFAE00F0DEB7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EC47387F2847BFB000F0DEB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC4738822847BFB000F0DEB7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EC4738882847BFB100F0DEB7 /* AsteroidsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC47388C2847BFB100F0DEB7 /* AsteroidsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsTests.swift; sourceTree = "<group>"; };
+		EC4738922847BFB100F0DEB7 /* AsteroidsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsteroidsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC4738962847BFB100F0DEB7 /* AsteroidsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsUITests.swift; sourceTree = "<group>"; };
+		EC4738982847BFB100F0DEB7 /* AsteroidsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsteroidsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EC9087F12849034E004146CE /* Botones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Botones.swift; sourceTree = "<group>"; };
+		EC90880C2849061A004146CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC90881328490A75004146CE /* 4114blasterc.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blasterc.ttf; path = Asteroids/Assets/fonts/4114blasterc.ttf; sourceTree = SOURCE_ROOT; };
+		EC90881428490A75004146CE /* 4114blasterei.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blasterei.ttf; path = Asteroids/Assets/fonts/4114blasterei.ttf; sourceTree = SOURCE_ROOT; };
+		EC90881528490A75004146CE /* 4114blaster3di.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blaster3di.ttf; path = Asteroids/Assets/fonts/4114blaster3di.ttf; sourceTree = SOURCE_ROOT; };
+		EC90881628490A75004146CE /* 4114blasterl.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blasterl.ttf; path = Asteroids/Assets/fonts/4114blasterl.ttf; sourceTree = SOURCE_ROOT; };
+		EC90881728490A75004146CE /* 4114blaster3d.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blaster3d.ttf; path = Asteroids/Assets/fonts/4114blaster3d.ttf; sourceTree = SOURCE_ROOT; };
+		EC90881828490A75004146CE /* 4114blastere.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blastere.ttf; path = Asteroids/Assets/fonts/4114blastere.ttf; sourceTree = SOURCE_ROOT; };
+		EC90881928490A75004146CE /* 4114blasterli.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blasterli.ttf; path = Asteroids/Assets/fonts/4114blasterli.ttf; sourceTree = SOURCE_ROOT; };
+		EC90881A28490A75004146CE /* 4114blasteri.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blasteri.ttf; path = Asteroids/Assets/fonts/4114blasteri.ttf; sourceTree = SOURCE_ROOT; };
+		EC90881B28490A75004146CE /* 4114blasterci.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blasterci.ttf; path = Asteroids/Assets/fonts/4114blasterci.ttf; sourceTree = SOURCE_ROOT; };
+		EC90881C28490A75004146CE /* 4114blasterleft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = 4114blasterleft.ttf; path = Asteroids/Assets/fonts/4114blasterleft.ttf; sourceTree = SOURCE_ROOT; };
+		EC90883B28490A91004146CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		EC90883C28490E97004146CE /* SnakeGameDemoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnakeGameDemoRegular.ttf; sourceTree = "<group>"; };
+		EC90884028490FE5004146CE /* JuegoInicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoInicio.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC4738752847BFAE00F0DEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4738852847BFB100F0DEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC47388F2847BFB100F0DEB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC47386F2847BFAE00F0DEB7 = {
+			isa = PBXGroup;
+			children = (
+				EC47387A2847BFAE00F0DEB7 /* Asteroids */,
+				EC47388B2847BFB100F0DEB7 /* AsteroidsTests */,
+				EC4738952847BFB100F0DEB7 /* AsteroidsUITests */,
+				EC4738792847BFAE00F0DEB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC4738792847BFAE00F0DEB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC4738782847BFAE00F0DEB7 /* Asteroids.app */,
+				EC4738882847BFB100F0DEB7 /* AsteroidsTests.xctest */,
+				EC4738922847BFB100F0DEB7 /* AsteroidsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC47387A2847BFAE00F0DEB7 /* Asteroids */ = {
+			isa = PBXGroup;
+			children = (
+				EC90883B28490A91004146CE /* Info.plist */,
+				EC9087F028490340004146CE /* Styles */,
+				EC4738A62847CA6800F0DEB7 /* views */,
+				EC4738A52847CA4800F0DEB7 /* classes */,
+				EC47387B2847BFAE00F0DEB7 /* AsteroidsApp.swift */,
+				EC47387F2847BFB000F0DEB7 /* Assets.xcassets */,
+				EC908812284909E1004146CE /* Fonts */,
+				EC4738812847BFB000F0DEB7 /* Preview Content */,
+			);
+			path = Asteroids;
+			sourceTree = "<group>";
+		};
+		EC4738812847BFB000F0DEB7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EC4738822847BFB000F0DEB7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EC47388B2847BFB100F0DEB7 /* AsteroidsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC90880C2849061A004146CE /* Info.plist */,
+				EC47388C2847BFB100F0DEB7 /* AsteroidsTests.swift */,
+			);
+			path = AsteroidsTests;
+			sourceTree = "<group>";
+		};
+		EC4738952847BFB100F0DEB7 /* AsteroidsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC4738962847BFB100F0DEB7 /* AsteroidsUITests.swift */,
+				EC4738982847BFB100F0DEB7 /* AsteroidsUITestsLaunchTests.swift */,
+			);
+			path = AsteroidsUITests;
+			sourceTree = "<group>";
+		};
+		EC4738A52847CA4800F0DEB7 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		EC4738A62847CA6800F0DEB7 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				EC47387D2847BFAE00F0DEB7 /* HomeView.swift */,
+				EC90884028490FE5004146CE /* JuegoInicio.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		EC9087F028490340004146CE /* Styles */ = {
+			isa = PBXGroup;
+			children = (
+				EC9087F12849034E004146CE /* Botones.swift */,
+			);
+			path = Styles;
+			sourceTree = "<group>";
+		};
+		EC908812284909E1004146CE /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EC90883C28490E97004146CE /* SnakeGameDemoRegular.ttf */,
+				EC90881728490A75004146CE /* 4114blaster3d.ttf */,
+				EC90881528490A75004146CE /* 4114blaster3di.ttf */,
+				EC90881328490A75004146CE /* 4114blasterc.ttf */,
+				EC90881B28490A75004146CE /* 4114blasterci.ttf */,
+				EC90881828490A75004146CE /* 4114blastere.ttf */,
+				EC90881428490A75004146CE /* 4114blasterei.ttf */,
+				EC90881A28490A75004146CE /* 4114blasteri.ttf */,
+				EC90881628490A75004146CE /* 4114blasterl.ttf */,
+				EC90881C28490A75004146CE /* 4114blasterleft.ttf */,
+				EC90881928490A75004146CE /* 4114blasterli.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC4738772847BFAE00F0DEB7 /* Asteroids */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC47389C2847BFB100F0DEB7 /* Build configuration list for PBXNativeTarget "Asteroids" */;
+			buildPhases = (
+				EC4738742847BFAE00F0DEB7 /* Sources */,
+				EC4738752847BFAE00F0DEB7 /* Frameworks */,
+				EC4738762847BFAE00F0DEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Asteroids;
+			productName = Asteroids;
+			productReference = EC4738782847BFAE00F0DEB7 /* Asteroids.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC4738872847BFB100F0DEB7 /* AsteroidsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC47389F2847BFB100F0DEB7 /* Build configuration list for PBXNativeTarget "AsteroidsTests" */;
+			buildPhases = (
+				EC4738842847BFB100F0DEB7 /* Sources */,
+				EC4738852847BFB100F0DEB7 /* Frameworks */,
+				EC4738862847BFB100F0DEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC47388A2847BFB100F0DEB7 /* PBXTargetDependency */,
+			);
+			name = AsteroidsTests;
+			productName = AsteroidsTests;
+			productReference = EC4738882847BFB100F0DEB7 /* AsteroidsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC4738912847BFB100F0DEB7 /* AsteroidsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC4738A22847BFB100F0DEB7 /* Build configuration list for PBXNativeTarget "AsteroidsUITests" */;
+			buildPhases = (
+				EC47388E2847BFB100F0DEB7 /* Sources */,
+				EC47388F2847BFB100F0DEB7 /* Frameworks */,
+				EC4738902847BFB100F0DEB7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC4738942847BFB100F0DEB7 /* PBXTargetDependency */,
+			);
+			name = AsteroidsUITests;
+			productName = AsteroidsUITests;
+			productReference = EC4738922847BFB100F0DEB7 /* AsteroidsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC4738702847BFAE00F0DEB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					EC4738772847BFAE00F0DEB7 = {
+						CreatedOnToolsVersion = 13.4;
+					};
+					EC4738872847BFB100F0DEB7 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = EC4738772847BFAE00F0DEB7;
+					};
+					EC4738912847BFB100F0DEB7 = {
+						CreatedOnToolsVersion = 13.4;
+						TestTargetID = EC4738772847BFAE00F0DEB7;
+					};
+				};
+			};
+			buildConfigurationList = EC4738732847BFAE00F0DEB7 /* Build configuration list for PBXProject "Asteroids" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC47386F2847BFAE00F0DEB7;
+			productRefGroup = EC4738792847BFAE00F0DEB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC4738772847BFAE00F0DEB7 /* Asteroids */,
+				EC4738872847BFB100F0DEB7 /* AsteroidsTests */,
+				EC4738912847BFB100F0DEB7 /* AsteroidsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC4738762847BFAE00F0DEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90882F28490A75004146CE /* 4114blasterli.ttf in Resources */,
+				EC90882C28490A75004146CE /* 4114blastere.ttf in Resources */,
+				EC90883228490A75004146CE /* 4114blasteri.ttf in Resources */,
+				EC4738832847BFB000F0DEB7 /* Preview Assets.xcassets in Resources */,
+				EC90882328490A75004146CE /* 4114blaster3di.ttf in Resources */,
+				EC90883828490A75004146CE /* 4114blasterleft.ttf in Resources */,
+				EC4738802847BFB000F0DEB7 /* Assets.xcassets in Resources */,
+				EC90882028490A75004146CE /* 4114blasterei.ttf in Resources */,
+				EC90881D28490A75004146CE /* 4114blasterc.ttf in Resources */,
+				EC90882928490A75004146CE /* 4114blaster3d.ttf in Resources */,
+				EC90883528490A75004146CE /* 4114blasterci.ttf in Resources */,
+				EC90883D28490E97004146CE /* SnakeGameDemoRegular.ttf in Resources */,
+				EC90882628490A75004146CE /* 4114blasterl.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4738862847BFB100F0DEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90883628490A75004146CE /* 4114blasterci.ttf in Resources */,
+				EC90882128490A75004146CE /* 4114blasterei.ttf in Resources */,
+				EC90881E28490A75004146CE /* 4114blasterc.ttf in Resources */,
+				EC90882D28490A75004146CE /* 4114blastere.ttf in Resources */,
+				EC90882428490A75004146CE /* 4114blaster3di.ttf in Resources */,
+				EC90883328490A75004146CE /* 4114blasteri.ttf in Resources */,
+				EC90883E28490E97004146CE /* SnakeGameDemoRegular.ttf in Resources */,
+				EC90882A28490A75004146CE /* 4114blaster3d.ttf in Resources */,
+				EC90883028490A75004146CE /* 4114blasterli.ttf in Resources */,
+				EC90882728490A75004146CE /* 4114blasterl.ttf in Resources */,
+				EC90883928490A75004146CE /* 4114blasterleft.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4738902847BFB100F0DEB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90883728490A75004146CE /* 4114blasterci.ttf in Resources */,
+				EC90882228490A75004146CE /* 4114blasterei.ttf in Resources */,
+				EC90881F28490A75004146CE /* 4114blasterc.ttf in Resources */,
+				EC90882E28490A75004146CE /* 4114blastere.ttf in Resources */,
+				EC90882528490A75004146CE /* 4114blaster3di.ttf in Resources */,
+				EC90883428490A75004146CE /* 4114blasteri.ttf in Resources */,
+				EC90883F28490E97004146CE /* SnakeGameDemoRegular.ttf in Resources */,
+				EC90882B28490A75004146CE /* 4114blaster3d.ttf in Resources */,
+				EC90883128490A75004146CE /* 4114blasterli.ttf in Resources */,
+				EC90882828490A75004146CE /* 4114blasterl.ttf in Resources */,
+				EC90883A28490A75004146CE /* 4114blasterleft.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC4738742847BFAE00F0DEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC90884128490FE5004146CE /* JuegoInicio.swift in Sources */,
+				EC9087F22849034E004146CE /* Botones.swift in Sources */,
+				EC47387E2847BFAE00F0DEB7 /* HomeView.swift in Sources */,
+				EC47387C2847BFAE00F0DEB7 /* AsteroidsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4738842847BFB100F0DEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC47388D2847BFB100F0DEB7 /* AsteroidsTests.swift in Sources */,
+				EC90884228490FE5004146CE /* JuegoInicio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC47388E2847BFB100F0DEB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC4738972847BFB100F0DEB7 /* AsteroidsUITests.swift in Sources */,
+				EC4738992847BFB100F0DEB7 /* AsteroidsUITestsLaunchTests.swift in Sources */,
+				EC90884328490FE5004146CE /* JuegoInicio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC47388A2847BFB100F0DEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4738772847BFAE00F0DEB7 /* Asteroids */;
+			targetProxy = EC4738892847BFB100F0DEB7 /* PBXContainerItemProxy */;
+		};
+		EC4738942847BFB100F0DEB7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC4738772847BFAE00F0DEB7 /* Asteroids */;
+			targetProxy = EC4738932847BFB100F0DEB7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC47389A2847BFB100F0DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC47389B2847BFB100F0DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC47389D2847BFB100F0DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Asteroids/Preview Content\"";
+				DEVELOPMENT_TEAM = K86XLLU79Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Asteroids/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asteroids.ronri.es.Asteroids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC47389E2847BFB100F0DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Asteroids/Preview Content\"";
+				DEVELOPMENT_TEAM = K86XLLU79Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Asteroids/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asteroids.ronri.es.Asteroids;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC4738A02847BFB100F0DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K86XLLU79Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsteroidsTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asteroids.ronri.es.AsteroidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asteroids.app/Asteroids";
+			};
+			name = Debug;
+		};
+		EC4738A12847BFB100F0DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K86XLLU79Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AsteroidsTests/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asteroids.ronri.es.AsteroidsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Asteroids.app/Asteroids";
+			};
+			name = Release;
+		};
+		EC4738A32847BFB100F0DEB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K86XLLU79Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asteroids.ronri.es.AsteroidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Asteroids;
+			};
+			name = Debug;
+		};
+		EC4738A42847BFB100F0DEB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K86XLLU79Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = asteroids.ronri.es.AsteroidsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Asteroids;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC4738732847BFAE00F0DEB7 /* Build configuration list for PBXProject "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC47389A2847BFB100F0DEB7 /* Debug */,
+				EC47389B2847BFB100F0DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC47389C2847BFB100F0DEB7 /* Build configuration list for PBXNativeTarget "Asteroids" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC47389D2847BFB100F0DEB7 /* Debug */,
+				EC47389E2847BFB100F0DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC47389F2847BFB100F0DEB7 /* Build configuration list for PBXNativeTarget "AsteroidsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4738A02847BFB100F0DEB7 /* Debug */,
+				EC4738A12847BFB100F0DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC4738A22847BFB100F0DEB7 /* Build configuration list for PBXNativeTarget "AsteroidsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC4738A32847BFB100F0DEB7 /* Debug */,
+				EC4738A42847BFB100F0DEB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC4738702847BFAE00F0DEB7 /* Project object */;
+}

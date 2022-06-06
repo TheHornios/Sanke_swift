@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>4114blaster3di.ttf</string>
+		<string>SnakeGameDemoRegular.ttf</string>
+		<string>4114blaster3d.ttf</string>
+		<string>4114blasterc.ttf</string>
+		<string>4114blasterci.ttf</string>
+		<string>4114blastere.ttf</string>
+		<string>4114blasteri.ttf</string>
+		<string>4114blasterl.ttf</string>
+		<string>4114blasterleft.ttf</string>
+		<string>4114blasterli.ttf</string>
+	</array>
+</dict>
+</plist>
