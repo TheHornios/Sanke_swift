@@ -51,6 +51,10 @@
 		EC90884128490FE5004146CE /* JuegoInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90884028490FE5004146CE /* JuegoInicio.swift */; };
 		EC90884228490FE5004146CE /* JuegoInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90884028490FE5004146CE /* JuegoInicio.swift */; };
 		EC90884328490FE5004146CE /* JuegoInicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC90884028490FE5004146CE /* JuegoInicio.swift */; };
+		ECFE3C51284E50F6003F7BF1 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE3C50284E50F6003F7BF1 /* GameController.swift */; };
+		ECFE3C53284E9AB0003F7BF1 /* Tablero.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE3C52284E9AB0003F7BF1 /* Tablero.swift */; };
+		ECFE3C55284EA517003F7BF1 /* Rectangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE3C54284EA517003F7BF1 /* Rectangle.swift */; };
+		ECFE3C57284EA5A7003F7BF1 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECFE3C56284EA5A7003F7BF1 /* Position.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -96,6 +100,10 @@
 		EC90883B28490A91004146CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		EC90883C28490E97004146CE /* SnakeGameDemoRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SnakeGameDemoRegular.ttf; sourceTree = "<group>"; };
 		EC90884028490FE5004146CE /* JuegoInicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegoInicio.swift; sourceTree = "<group>"; };
+		ECFE3C50284E50F6003F7BF1 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		ECFE3C52284E9AB0003F7BF1 /* Tablero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tablero.swift; sourceTree = "<group>"; };
+		ECFE3C54284EA517003F7BF1 /* Rectangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rectangle.swift; sourceTree = "<group>"; };
+		ECFE3C56284EA5A7003F7BF1 /* Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +154,7 @@
 		EC47387A2847BFAE00F0DEB7 /* Asteroids */ = {
 			isa = PBXGroup;
 			children = (
+				ECFE3C4F284E50DF003F7BF1 /* Controllers */,
 				EC90883B28490A91004146CE /* Info.plist */,
 				EC9087F028490340004146CE /* Styles */,
 				EC4738A62847CA6800F0DEB7 /* views */,
@@ -187,6 +196,9 @@
 		EC4738A52847CA4800F0DEB7 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				ECFE3C52284E9AB0003F7BF1 /* Tablero.swift */,
+				ECFE3C54284EA517003F7BF1 /* Rectangle.swift */,
+				ECFE3C56284EA5A7003F7BF1 /* Position.swift */,
 			);
 			path = classes;
 			sourceTree = "<group>";
@@ -224,6 +236,14 @@
 				EC90881928490A75004146CE /* 4114blasterli.ttf */,
 			);
 			path = Fonts;
+			sourceTree = "<group>";
+		};
+		ECFE3C4F284E50DF003F7BF1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				ECFE3C50284E50F6003F7BF1 /* GameController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -390,9 +410,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC90884128490FE5004146CE /* JuegoInicio.swift in Sources */,
+				ECFE3C53284E9AB0003F7BF1 /* Tablero.swift in Sources */,
+				ECFE3C51284E50F6003F7BF1 /* GameController.swift in Sources */,
 				EC9087F22849034E004146CE /* Botones.swift in Sources */,
 				EC47387E2847BFAE00F0DEB7 /* HomeView.swift in Sources */,
 				EC47387C2847BFAE00F0DEB7 /* AsteroidsApp.swift in Sources */,
+				ECFE3C57284EA5A7003F7BF1 /* Position.swift in Sources */,
+				ECFE3C55284EA517003F7BF1 /* Rectangle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

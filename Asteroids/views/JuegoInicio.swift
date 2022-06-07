@@ -9,13 +9,23 @@ import Foundation
 import SwiftUI
 
 struct JuegoInicio: View {
+    var gameController:GameController = GameController()
     
     var body: some View {
         VStack{
             Text("fhfh")
-            Canvas { context, size in
-                /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Drawing Code@*/ /*@END_MENU_TOKEN@*/
-            }.border(Color.blue)
+            
+            TimelineView(.animation) { timeline in
+                Canvas { context, size in
+                    
+                    var now = timeline.date.timeIntervalSinceReferenceDate
+                    gameController.update( size: size )
+                    gameController.draw( context: context, size: size )
+                    
+                }.border(Color.blue)
+            }
+    
+           
         }
     }
 }
