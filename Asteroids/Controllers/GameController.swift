@@ -21,7 +21,9 @@ class GameController {
     }
     
     public func draw( context: GraphicsContext, size: CGSize ){
+        tablero.draw( context:context ,size: size )
         
+        /*
          // 1
        let clockSize = min(size.width, size.height) * 0.9
        // 2
@@ -52,6 +54,8 @@ class GameController {
         //cgContext.fillPath()
           // 5
        // cgContext.restoreGState()
+         
+         */
         
     }
     

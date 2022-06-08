@@ -9,33 +9,42 @@
 import SwiftUI
 
 class Tablero {
-    private var miArray = [[Rectangle]]()
-    private var tamnyoCelda:Int = 10
+    private var arrayRectangulos = [[Rectangle]]()
+    private var tamnyoCelda:Int = 30
+    private var isTableroCreated:Bool = false
     
     init() {
-        
+        self.tamnyoCelda = Int( UIScreen.main.bounds.width / 14  )
     }
     
     public func update( size: CGSize ){
-        self.crearTablero( size: size )
+        if( !self.isTableroCreated ){
+            self.crearTablero( size: size )
+            self.isTableroCreated = true
+        }
     }
     
     public func draw( context: GraphicsContext, size: CGSize ){
         
+        for rectangleX in arrayRectangulos {
+            for rectangle in rectangleX{
+                rectangle.drawRectangle(context: context)
+            }
+        }
         
     }
     
     private func crearTablero( size: CGSize ){
         
-        miArray = [[Rectangle]]()
+        arrayRectangulos = [[Rectangle]]()
         var counter = 0
         
-        while Double( counter ) <= size.width {
+        while Double( counter ) <= Double( Int(size.width) - self.tamnyoCelda) {
             
             var myArray = [Rectangle]()
             var counterHeigt = 0
             
-            while Double( counterHeigt ) <= size.height {
+            while Double( Int( counterHeigt ) + self.tamnyoCelda ) <= size.height  {
                 
                 let rectangulo = Rectangle(
                     ancho: Double( self.tamnyoCelda ),
@@ -47,15 +56,13 @@ class Tablero {
                 )
                 
                 myArray.append( rectangulo  )
-                counterHeigt += 10
+                counterHeigt += self.tamnyoCelda
                 
             }
             
-            miArray.append( myArray )
-            counter += 10
+            arrayRectangulos.append( myArray )
+            counter += self.tamnyoCelda
         }
-        
-        
         
         
     }

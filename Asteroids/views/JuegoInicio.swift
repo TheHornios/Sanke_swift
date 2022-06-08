@@ -23,7 +23,9 @@ struct JuegoInicio: View {
                     gameController.draw( context: context, size: size )
                     
                 }.border(Color.blue)
+                    .scaledToFit()
             }
+            Text("fhfh")
     
            
         }

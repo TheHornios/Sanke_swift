@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SwiftUI
 
 
 class Rectangle {
@@ -51,4 +52,17 @@ class Rectangle {
     public func getPosition() -> ( Double, Double, position:Position  ){
         return ( self.ancho, self.alto, self.posicion )
     }
+    
+    public func drawRectangle( context: GraphicsContext ){
+        
+        let rect = CGRect(
+            origin: CGPoint(x: self.posicion.getPositionX(), y: self.posicion.getPositionY() ),
+            size: CGSize(width: self.ancho, height: self.alto)
+        )
+        
+        let path = Path(roundedRect: rect, cornerRadius: 0)
+        context.stroke(path, with: .color(.red), lineWidth: 1)
+        
+    }
+    
 }
