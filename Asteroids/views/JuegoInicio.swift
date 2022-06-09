@@ -13,7 +13,7 @@ struct JuegoInicio: View {
     
     var body: some View {
         VStack{
-            Text("fhfh")
+            Text("hols")
             
             TimelineView(.animation) { timeline in
                 Canvas { context, size in
@@ -22,10 +22,12 @@ struct JuegoInicio: View {
                     gameController.update( size: size )
                     gameController.draw( context: context, size: size )
                     
-                }.border(Color.blue)
-                    .scaledToFit()
+                }
+                .border(Color.blue)
+                .frame(
+                    width: UIScreen.main.bounds.width,
+                    height: .infinity)
             }
-            Text("fhfh")
     
            
         }
